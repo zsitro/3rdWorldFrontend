@@ -1,2 +1,0 @@
-{"ts":1369728419004,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
-{"contributors":[],"silentsave":false,"ts":1369728441432,"patch":[[{"diffs":[[1,"/*\r\n * Variadic Functions\r\n */\r\n(function(){\r\n    \r\n\t/* All in one */\r\n\tvar args = [].slice.call(arguments);\r\n\t\r\n\t/* Just opts */\r\n\tvar args = [].slice.call(arguments, 2);\r\n\t\r\n})(a, b, opt1, opt2, opt3);"]],"start1":0,"start2":0,"length1":0,"length2":203}]],"length":203,"saved":false}
