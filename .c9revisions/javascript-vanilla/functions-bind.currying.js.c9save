@@ -1,0 +1,2 @@
+{"ts":1369728298208,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1369728355307,"patch":[[{"diffs":[[1,"// http://jsbin.com/uwawoj/1/edit\r\n\r\nvar original = function(a,b,c){\r\n    return a + b + c;\r\n}\r\n\r\nvar curry = original.bind(null, 1, 2);\r\n\r\nconsole.log( original(1,2,3), curry(3), original(1,2,3) === curry(3) );\r\n\r\n"]],"start1":0,"start2":0,"length1":0,"length2":215}]],"length":215,"saved":false}
